@@ -58,6 +58,8 @@ public class Main {
         int primeiroDigitoJogada = Character.getNumericValue(jogada.charAt(0));
         int segundoDigitoJogada = Character.getNumericValue(jogada.charAt(1));
 
+        //novocomentario
+
 
         for (int i = 0; i < tabuleiro.length; i++) {
             for (int j = 0; j < tabuleiro[i].length; j++) {
