@@ -73,7 +73,7 @@ public class Main {
                             tabuleiro[i][j] = "O";
                         }
                     }else{
-                        System.out.println("Posiçao já ocupada, tente novamente.");
+                        System.out.println("Posiçao já ocupada, tente novamente por favor.");
                     }
                 }
             }
