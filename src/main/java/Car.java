@@ -1,10 +1,10 @@
-public class Cars {
+public class Car {
 
     private String modelo;
     private int anoFabricacao;
     private boolean lataVelha;
 
-    public Cars(String modelo, int anoFabricacao, boolean lataVelha) {
+    public Car(String modelo, int anoFabricacao, boolean lataVelha) {
         this.modelo = modelo;
         this.anoFabricacao = anoFabricacao;
         this.lataVelha = lataVelha;

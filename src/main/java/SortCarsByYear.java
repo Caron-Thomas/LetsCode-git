@@ -1,9 +1,9 @@
 import java.util.Comparator;
 
-public class SortCarsByYear implements Comparator<Cars> {
+public class SortCarsByYear implements Comparator<Car> {
 
     @Override
-    public int compare(Cars c1, Cars c2) {
+    public int compare(Car c1, Car c2) {
         if(c1.getAnoFabricacao() > c2.getAnoFabricacao()){
             return -1;
         } else if (c1.getAnoFabricacao() > c2.getAnoFabricacao()){
